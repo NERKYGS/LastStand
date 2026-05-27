@@ -1,13 +1,17 @@
+/* =========================================
+   PÁGINA PRINCIPAL (INDEX)
+   ========================================= */
 .main-index {
     padding: 0;
     background: none;
     flex: 1;
 }
 
+/* Hero full width */
 .hero-full {
     height: 80vh;
     min-height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../img/principal/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../img/principal/hero.png');
     background-size: cover;
     background-position: center 30%;
     background-attachment: fixed;
@@ -38,6 +42,7 @@
     color: #ddd;
 }
 
+/* Sección carruseles */
 .carousels-section {
     padding: 80px 20px;
     background-color: #1a1a1a;
