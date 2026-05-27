@@ -1,2 +1,3 @@
 # LastStand
 Proyecto final Desarrollo web
+Proyecto creado unica y especificamente con fines educativos, la tematica se inspiro principalmeten en una tienda de suministros militares, la idea surgio mientras estaba jugando al Project Zomboid y recorde que tenia este proyecto pendiente y simplemente lo ajuste a la practica, durante la elaboracion de este proyecto me base en la practica de la constructora morgon para la elaboracion de este proyecto
