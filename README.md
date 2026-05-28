@@ -16,7 +16,7 @@ Blanco para texto principal e iconos
 ## Tipografías
 **Verdana, Geneva, sans-serif** 
 
-## 🌐 Páginas del sitio
+## Páginas del sitio
 - **Inicio** Pantalla principal con dos carruseles de imágenes destacadas.
 - **Quiénes somos**  Misión, visión y valores.
 - **Armería** Catálogo estático de 18 armas populares con especificaciones y compatibilidad.
