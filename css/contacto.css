@@ -1,0 +1,129 @@
+.page-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-title h2 {
+    color: #8B0000;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #ccc;
+    font-size: 18px;
+}
+
+.contact-split {
+    display: flex;
+    gap: 50px;
+    align-items: stretch;
+}
+
+.form-container {
+    flex: 1;
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    border-left: 8px solid #8B0000;
+}
+
+.contact-info-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-card {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 8px;
+    border-left: 8px solid #8B0000;
+}
+
+.info-card h3 {
+    color: #8B0000;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.contact-list {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ddd;
+}
+
+.contact-list li img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1); 
+}
+
+.contact-hero-img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    background-color: #111;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #8B0000;
+    background-color: #1a1a1a;
+}
+
+.form-container .cta-button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media (max-width: 850px) {
+    .contact-split {
+        flex-direction: column;
+    }
+}
