@@ -1,4 +1,3 @@
-// Validación y envío del formulario de contacto
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {

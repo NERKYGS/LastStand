@@ -27,7 +27,6 @@ function jumpToSlide(trackId, dotsId, index) {
     dots[index].classList.add('active');
 }
 
-// Auto-play cada 4 segundos
 setInterval(() => {
     moveSlide('track1', 'dots1', 1);
     moveSlide('track2', 'dots2', 1);

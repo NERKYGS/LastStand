@@ -71,7 +71,6 @@
     text-align: justify;
 }
 
-/* Ajuste responsive */
 @media (max-width: 850px) {
     .zigzag-row, .zigzag-row.reverse {
         flex-direction: column;
