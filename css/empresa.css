@@ -26,8 +26,8 @@
     width: 45px;
     height: 45px;
     margin-bottom: 15px;
-    filter: invert(27%) sepia(89%) saturate(2000%) hue-rotate(0deg) brightness(90%) contrast(110%);
-}
+    filter: brightness(0) invert(27%) sepia(89%) saturate(2000%) hue-rotate(0deg) brightness(90%) contrast(110%);
+} 
 
 .zigzag-row {
     display: flex;
